@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="myForm">
+      <div>
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="email">Електронна пошта:</label>
+        <input type="text" id="email" name="email" />
+      </div>
+      <button type="submit">Відправити</button>
+    </form>
+
+    <form>
+      <label for="feedback">Ваш відгук:</label>
+      <textarea id="feedback" name="feedback"></textarea>
+      <span id="counter" class="counter">Символів: 0</span>
+    </form>
+
+    <form>
+      <div class="password-field">
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <div class="password-field">
+        <label for="confirm-password">Підтвердження пароля:</label>
+        <input type="password" id="confirm-password" name="confirm-password" />
+      </div>
+    </form>
+
+    <form>
+      <input type="text" class="text-field" placeholder="Поле 1" />
+      <input type="text" class="text-field" placeholder="Поле 2" />
+      <input type="text" class="text-field" placeholder="Поле 3" />
+    </form>
+
+    <label for="city-select">Оберіть місто:</label>
+    <select id="city-select">
+      <option value="">-- Виберіть місто --</option>
+      <option value="Київ">Київ</option>
+      <option value="Львів">Львів</option>
+      <option value="Одеса">Одеса</option>
+      <option value="Харків">Харків</option>
+      <option value="Дніпро">Дніпро</option>
+    </select>
+    <script src="script.js"></script>
+  </body>
+</html>
